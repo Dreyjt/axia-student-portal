@@ -13,3 +13,55 @@ p {
     font-size: 18px;
     color: #555;
 }
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background: #222;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.sidebar ul li a:hover {
+    background: #444;
+}
+
+/* Main content */
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.topbar {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    margin-top: 0;
+}
